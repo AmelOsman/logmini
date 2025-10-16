@@ -1,0 +1,2 @@
+# logmini
+Bash Project
