@@ -1,0 +1,5 @@
+2025-10-15 08:11:22 ERROR Database connection failed
+2025-10-15 08:12:33 CRITICAL Payment service unavailable
+2025-10-15 08:13:44 ERROR Timeout while contacting API
+2025-10-15 08:14:55 ERROR File not found: /var/log/app.log
+2025-10-15 08:15:11 CRITICAL Disk failure on /dev/sda1

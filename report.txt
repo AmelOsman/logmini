@@ -1,0 +1,8 @@
+CRITICAL 2
+FATAL    0
+ERROR    3
+WARN     0
+NOTICE   0
+INFO     0
+DEBUG    0
+TOTAL    5

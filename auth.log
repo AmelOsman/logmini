@@ -1,0 +1,5 @@
+2025-10-15 09:01:00 INFO User alice logged in
+2025-10-15 09:02:11 INFO User bob logged out
+2025-10-15 09:03:22 WARN User charlie attempted invalid login
+2025-10-15 09:04:33 INFO Password change requested for user diana
+2025-10-15 09:05:44 WARN Multiple failed login attempts for user eve
