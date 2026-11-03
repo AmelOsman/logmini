@@ -58,8 +58,8 @@ if [ "$MODE" = "events" ]; then
 else
   result="$(
     build_input \
-    | grep -Eio 'CRITICAL|FATAL|ERROR|WARN|WARNING|NOTICE|INFO|DEBUG' \
-    | awk '{ gsub(/^WARNING$/, "WARN"); c[toupper($0)]++ } END {
+    | { grep -Eio 'CRITICAL|FATAL|ERROR|WARN|WARNING|NOTICE|INFO|DEBUG' || true; } \
+    | awk '{ s=toupper($0); if (s=="WARNING") s="WARN"; c[s]++ } END {
         order="CRITICAL FATAL ERROR WARN NOTICE INFO DEBUG";
         split(order,o," ");
         total=0;
